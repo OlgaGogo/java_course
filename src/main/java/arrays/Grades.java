@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Grades {
 
-    private static int grades[];
-    private static Scanner scanner = new Scanner(System.in);
+    private static int[] grades;
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args){
 
