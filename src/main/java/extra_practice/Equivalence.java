@@ -2,7 +2,7 @@ package extra_practice;
 
 import java.util.Scanner;
 
-public class Try {
+public class Equivalence {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String args[]){
