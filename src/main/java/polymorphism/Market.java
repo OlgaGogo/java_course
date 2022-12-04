@@ -19,11 +19,23 @@ public class Market {
 
         squeeze(banana);
         squeeze(redApple);
+        squeeze(greenApple);
 
     }
 
     public static void squeeze(Fruit fruit){
-        System.out.println("Squeezing...");
-        fruit.makeJuice();
+
+        if(fruit instanceof Orange){
+            System.out.println("Squeezing an orange");
+            fruit.makeJuice();
+        }
+        else if(fruit instanceof Apple){
+            System.out.println("Squeezing an apple");
+            fruit.makeJuice();
+        }
+        else {
+            System.out.println("Squeezing unknown fruit");
+        }
+
     }
 }
