@@ -23,7 +23,7 @@ public class DayofTheWeek {
         if(index<=7&&index>=1){
             System.out.println("The day of the week is: " + week[index - 1]);
         }
-        System.out.println("You entered the wrong number");
+        System.out.println("You entered the wrong number. Enter correct number");
 
     }
 }
