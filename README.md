@@ -4,3 +4,6 @@ The material covered here is equivalent to the curriculum of a full semester of 
 to programming. While you may be here because you desire to become a test automation engineer, this course will not limit your knowledge to just that area. 
 You will learn Java in general so that you are a true Java programmer and can use this skill for any related programming role, 
 including an automation engineer.
+
+The link to the course:
+https://testautomationu.applitools.com/java-programming-course/
