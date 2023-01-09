@@ -9,7 +9,7 @@ public class Palindrome {
         System.out.println(res);
 
     }
-
+    //using for-loop (more effective)
     public boolean isPalindrome(String s){
         for(int i = 0; i < s.length()/2; i++){
             if(s.charAt(i) != s.charAt(s.length() - 1 - i))
@@ -26,6 +26,7 @@ public class Palindrome {
         return "";
     }
 
+    //using StringBuilder (less effective)
     private boolean isPalindrome2(String s){
         StringBuilder sb = new StringBuilder(s);
         String reverse = sb.reverse().toString();
