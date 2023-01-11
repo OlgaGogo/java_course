@@ -12,7 +12,7 @@ public class Palindrome {
 
     public String firstPalindrome(String[] words){
         for (String w: words){
-            if(isPalindrome3(w))
+            if(isPalindrome(w))
                 return w;
         }
         return "";
